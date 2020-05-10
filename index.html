@@ -13,29 +13,87 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/common.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<header>
+  <h2>Konnov's page</h2>
+</header>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<section>
+  <nav>
+    <ul>
+      <li class="sidebar"><a class="sidebar" href="#">Blog</a></li>
+      <li class="sidebar"><a class="sidebar" href="#">CV</a></li>
+    </ul>
+  </nav>
+
+  <!-- TODO temporary height value -->
+  <div class="main-content" style="height: 600px">
+    <p>This is going to be my personal page where you can find a lot of information about me. The navigation bar does
+      not work for now, it's just a decoration</p>
+    <p>As for now you can check me on social platforms:</p>
+
+    <table id="social-accounts-table">
+      <tr>
+        <td>Facebook</td>
+        <td><a href="https://fb.com/konnovdev">fb.com/konnovdev</a></td>
+      </tr>
+      <tr>
+        <td>Github</td>
+        <td><a href="https://github.com/konnovdev">github.com/konnovdev</a></td>
+      </tr>
+      <tr>
+        <td>LinkedIn</td>
+        <td><a href="https://linkedin.com/in/konnovdev/">linkedin.com/in/konnovdev</a></td>
+      </tr>
+      <tr>
+        <td>Vk</td>
+        <td><a href="https://vk.com/konnovdev">vk.com/konnovdev</a></td>
+      </tr>
+      <tr>
+        <td>Instagram</td>
+        <td><a href="https://instagram.com/konnovdev">instagram.com/konnovdev</a></td>
+      </tr>
+      <tr>
+        <td>Tiktok</td>
+        <td><a href="https://www.tiktok.com/@konnovdev">tiktok.com/@konnovdev</a></td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p>About (haven't thought yet what to put inside the footer)</p>
+</footer>
+
+<script src="js/vendor/modernizr-3.8.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
