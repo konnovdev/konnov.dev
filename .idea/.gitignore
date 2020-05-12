@@ -3,3 +3,8 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/konnovdev.iml
+/misc.xml
+/modules.xml
+/vcs.xml
+/jsLibraryMappings.xml
