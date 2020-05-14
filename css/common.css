@@ -20,10 +20,7 @@ ul.top-nav-bar li a:hover:not(.active) {background-color: #111;}
 
 ul.top-nav-bar li a.active {background-color: #4CAF50;}
 
-ul.top-nav-bar li.right-nav-menu {float: right;}
-
 @media screen and (max-width: 600px) {
-  ul.top-nav-bar li.right-nav-menu,
   ul.top-nav-bar li {float: none;}
 }
 
