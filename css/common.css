@@ -18,6 +18,12 @@ header {
 section {
   display: -webkit-flex;
   display: flex;
+  min-height: 100%;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 /* Style the navigation menu */
@@ -41,15 +47,6 @@ li.sidebar {
 a.sidebar {
   text-decoration: none;
   color: white;
-}
-
-/* Style the content */
-.main-content {
-  -webkit-flex: 5;
-  -ms-flex: 5;
-  flex: 5;
-  background-color: #f1f1f1;
-  padding: 10px;
 }
 
 /* Style the footer */
