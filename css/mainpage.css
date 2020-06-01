@@ -9,6 +9,10 @@
   padding: 8px;
 }
 
-#social-accounts-table tr:nth-child(even){background-color: #f2f2f2;}
+#social-accounts-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
-#social-accounts-table tr:hover {background-color: #ddd;}
+#social-accounts-table tr:hover {
+  background-color: #ddd;
+}
