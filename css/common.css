@@ -26,7 +26,7 @@ ul.top-nav-bar li a.active {
   background-color: #4CAF50;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   ul.top-nav-bar li {
     float: none;
   }
